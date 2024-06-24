@@ -1,0 +1,19 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding-top: 80px; /* Espaço para o header fixo */
+}
+
+h1,h2,h3,h4,a,span, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+ul{ 
+    list-style: none;
+}

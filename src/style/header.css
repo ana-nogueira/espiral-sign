@@ -1,0 +1,39 @@
+.header-style {
+ position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+
+
+.logo {
+    max-width: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.header-style nav {
+    margin-left: 20px;
+}
