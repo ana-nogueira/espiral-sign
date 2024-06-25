@@ -19,7 +19,6 @@
 }
 
 
-
 .logo {
     max-width: 200px;
 }
@@ -33,6 +32,19 @@
     display: flex;
     gap: 20px;
 }
+
+.navbar li {
+    transition: .4s;
+}
+
+.navbar li:hover {
+border-bottom: solid 1px #ff914d ;
+}
+
+.navbar a {
+    color: #000;
+}
+
 
 .header-style nav {
     margin-left: 20px;
