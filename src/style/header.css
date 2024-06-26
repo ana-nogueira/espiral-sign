@@ -5,22 +5,11 @@
     width: 100%;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
+    z-index: 200;
 }
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-}
-
 
 .logo {
-    max-width: 200px;
+    max-width: 230px;
 }
 
 .logo img {
@@ -33,16 +22,19 @@
     gap: 20px;
 }
 
-.navbar li {
-    transition: .4s;
-}
-
-.navbar li:hover {
-border-bottom: solid 1px #ff914d ;
-}
-
 .navbar a {
-    color: #000;
+    font-size: 1.2rem;
+    color:#545454 ;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: .4s ;
+    
+}
+
+.navbar a:hover {
+    background-color: none;
+    border: solid 2px  #ff914d;
 }
 
 

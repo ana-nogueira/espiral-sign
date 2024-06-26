@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'IBM Plex Mono', sans-serif;
 }
 
 main {
@@ -22,9 +22,18 @@ a {
     text-decoration: none;
 }
 
-.hero {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.hero-style {
     width: 100%;
-    margin: 0;
-    height: 90vh;
+    margin: 80px 0;
+    height: 80vh;
     background: url('../assets/hero.png.png');
 }

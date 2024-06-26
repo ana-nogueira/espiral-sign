@@ -1,14 +1,14 @@
-import React from "react";
-import Header from "./Header";
-import Hero from "./Hero";
-import './style/style.css'
+import React from 'react';
+import Header from './Header';
+import Hero from './Hero';
+import './style/style.css';
 
 function App() {
   return (
-    <div >
+    <section>
       <Header />
-      <Hero/>
-    </div>
+      <Hero />
+    </section>
   );
 }
 
